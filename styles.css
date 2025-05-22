@@ -1,0 +1,60 @@
+#house{
+  position:relative;
+  top: 100px;
+  width:500px;
+  height:400px;
+  background-color:blue;
+  border:2px black;
+  z-index:2;
+}
+#chimney{
+  top:-80px;
+  position:absolute;
+  width:50px;
+  height:80px;
+  border:2px black;
+  background-color:brown;
+  z-index:1;
+}
+#roof{
+  background-color:red;
+  position:absolute;
+  top: 0;
+  width:500px;
+  height:200px;
+  border:2px black;
+  z-index:3;
+}
+
+#window-1{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border:2px black;
+  background-color:whitesmoke;
+  z-index:4;
+  top:205px;
+  right:20px;
+}
+#window-2{
+  position:absolute;
+  width:75px;
+  height:75px;
+  background-color:green;
+  border:2px black;
+  z-index:4;
+  top:205px;
+  right:90px;
+  left:50px;
+}
+#door{
+  position:absolute;
+  bottom: 0;
+  left: 50px;
+  right:50px;
+  width:55px;
+  height:75px;
+  background-color:purple;
+  z-index:5;
+border:2px white;
+}
